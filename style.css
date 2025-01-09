@@ -26,7 +26,7 @@ body {
 
 .principal {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(0, 0, 0)),
-    url('/img/fundoNovo.png.jpg');
+    url('/img/novofundo.png');
     background-size: cover; /* Faz a imagem cobrir o fundo */
     background-repeat: no-repeat;
     text-align: center;
@@ -42,7 +42,7 @@ body {
     text-decoration: none;
     margin-bottom: 1em;
     transition: all 0.3s ease;
-    width: 20em; /* Largura do botão */
+    width: 16em; /* Largura do botão */
     height: 1em; /* Altura do botão */
     font-size: 20px;
     font-weight: 400;
@@ -57,7 +57,7 @@ body {
     text-decoration: none;
     margin-bottom: 1em;
     transition: all 0.3s ease;
-    width: 20em; /* Largura do botão */
+    width: 16em; /* Largura do botão */
     height: 1em; /* Altura do botão */
     font-size: 20px;
     font-weight: 400;
