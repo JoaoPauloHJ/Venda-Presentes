@@ -14,7 +14,7 @@ body {
     color: var(--cor-de-fundo);
     background: linear-gradient(to right,#000000,#000000);
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 30px;
     font-weight: 400;
 
 }
@@ -36,31 +36,28 @@ body {
 .container__botaoP {
     background-color: var(--botao-azul);
     border-radius: 5px;
-    padding: 1em;
+    padding: 0.4em;
     color: var(--branco-principal);
-    display: block;
+    display: inline-block;
     text-decoration: none;
-    margin-bottom: 1em;
+    margin-top: 1em;
     transition: all 0.3s ease;
-    width: 25em; /* Largura do botão */
-    height: 1em; /* Altura do botão */
-    font-size: 20px;
-    font-weight: 400;
+    width: 7em; /* Largura do botão */
+    font-size: 25px;
+    border-radius: 5px;
+    border: solid var(--branco--gelo);
 }
 
 .container__botaoP_S {
     background-color: var(--botao-azul);
     border-radius: 5px;
-    padding: 1em;
+    padding: 0.4em;
     color: var(--cor-de-fundo);
-    display: block;
+    display: inline-block;
     text-decoration: none;
-    margin-bottom: 1em;
     transition: all 0.3s ease;
-    width: 25em; /* Largura do botão */
-    height: 1em; /* Altura do botão */
-    font-size: 20px;
-    font-weight: 400;
+    width: 7em; /* Largura do botão */
+    font-size: 25px;
 }
 .container__botaoP_S:hover {
     background-color: var(--botao-efeito-colorido);
@@ -114,7 +111,9 @@ body {
 }
 
 .container__titulo {
-    font-size: 28px;
+    color: var(--botao-azul);
+    margin-bottom: 1em;
+    font-size: 50px;
     font-weight: 700;
 }
 
@@ -127,8 +126,17 @@ body {
     margin: 1em 0 2em 0;
 }
 
+.container__caixa2 {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: stretch;
+}
+
 .container__caixa {
-    margin: 5em 20em 0 5em;
+    display: inline-block;
+    align-content: center;
+    justify-items: center;
 }
 
 .container__secundario {
@@ -245,7 +253,6 @@ body {
 }
 
 .rodape__texto {
-    margin: 1em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
 }
@@ -279,6 +286,31 @@ body {
     height: 550px;
 }
 
+.container__loginT {
+    margin-bottom: 1em;
+
+}
+
+.container__loginT2 {
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+}
+
+.container__input {
+    width: 300px; /* Largura da caixa de texto */
+    height: 40px; /* Altura da caixa de texto */
+    padding: 5px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho do texto */
+    border: 2px solid #02eef699; /* Cor da borda */
+    border-radius: 8px; /* Bordas arredondadas */
+  }
+
+  .container__input:focus {
+    outline: none; /* Remove o contorno padrão */
+    border-color: #2196F3; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px #2196F3; /* Adiciona um brilho */
+  }
 @media screen and (max-width: 728px) {
     .container__imagem {
         width: 50vw;
