@@ -38,11 +38,11 @@ body {
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-    display: block;
+    display: inline-block;
     text-decoration: none;
     margin-bottom: 1em;
     transition: all 0.3s ease;
-    width: 25em; /* Largura do botão */
+    width: 20em; /* Largura do botão */
     height: 1em; /* Altura do botão */
     font-size: 20px;
     font-weight: 400;
@@ -53,11 +53,11 @@ body {
     border-radius: 5px;
     padding: 1em;
     color: var(--cor-de-fundo);
-    display: block;
+    display: inline-block;
     text-decoration: none;
     margin-bottom: 1em;
     transition: all 0.3s ease;
-    width: 25em; /* Largura do botão */
+    width: 20em; /* Largura do botão */
     height: 1em; /* Altura do botão */
     font-size: 20px;
     font-weight: 400;
