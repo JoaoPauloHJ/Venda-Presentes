@@ -280,6 +280,9 @@ body {
 }
 
 @media screen and (max-width: 728px) {
+    .principal {
+        width: 300vw;
+    }
     .container__imagem {
         width: 50vw;
     }
