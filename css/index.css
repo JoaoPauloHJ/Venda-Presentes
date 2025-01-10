@@ -12,11 +12,10 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--cor-de-fundo);
-    background: linear-gradient(to right,#000000,#000000);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.926), rgb(40, 36, 32));
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-
 }
 
 * {
@@ -24,13 +23,23 @@ body {
     padding: 0;
 }
 
+
 .principal {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(0, 0, 0)),
-    url('/img/novofundo.png');
-    background-size: cover; /* Faz a imagem cobrir o fundo */
+    url('/img/presentes.png');
+    background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
-    margin-bottom: 5em;
+    background-position: center;
+
+}
+
+.container__imagem {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+
 }
 
 .container__botaoP {
@@ -53,14 +62,12 @@ body {
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-items: center;
     text-decoration: none;
     margin-top: 3em;
-    margin-left: 22em;
     transition: all 0.3s ease;
     width: 10em; /* Largura do botão */
-    height: 1em; /* Altura do botão */
     font-size: 20px;
     font-weight: 400;
 }
@@ -143,17 +150,13 @@ body {
     font-weight: 700;
 }
 
-.container__imagem {
-    object-fit: cover; /* Mantém a proporção da imagem */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
-    border-radius: 10px; /* Borda arredondada opcional */
-    width: 400px;
-    height: 800px;
-    
-}
+
 
 .container__caixa {
-    margin: 5em 20em 0 5em;
+    display: block;
+    grid-template-columns: auto;
+    justify-items: center;
+    margin: 10em 20em 30em 7em;
 }
 
 .container__secundario {
