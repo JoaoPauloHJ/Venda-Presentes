@@ -286,24 +286,15 @@ body {
     height: 550px;
 }
 
-.container__loginT {
-    margin-bottom: 1em;
-
-}
-
-.container__loginT2 {
-    margin-bottom: 1em;
-    margin-top: 1em;
-
-}
 
 .container__input {
-    width: 300px; /* Largura da caixa de texto */
-    height: 40px; /* Altura da caixa de texto */
+    width: 400px; /* Largura da caixa de texto */
+    height: 50px; /* Altura da caixa de texto */
     padding: 5px; /* Espaçamento interno */
     font-size: 16px; /* Tamanho do texto */
     border: 2px solid #02eef699; /* Cor da borda */
     border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 1em;
   }
 
   .container__input:focus {
