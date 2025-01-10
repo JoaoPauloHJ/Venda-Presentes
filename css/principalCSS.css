@@ -147,9 +147,9 @@ body {
     object-fit: cover; /* Mantém a proporção da imagem */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
     border-radius: 10px; /* Borda arredondada opcional */
-    width: 300px;
-    height: 300px;
-    margin: 1em 0 2em 0;
+    width: 400px;
+    height: 800px;
+    
 }
 
 .container__caixa {

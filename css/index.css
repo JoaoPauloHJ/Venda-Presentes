@@ -126,26 +126,10 @@ body {
     margin: 1em 0 2em 0;
 }
 
-.container__caixa2 {
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
-    align-items: stretch;
-}
-
 .container__caixa {
     display: inline-block;
     align-content: center;
     justify-items: center;
-}
-
-.container__secundario {
-    display: grid;
-    text-align: center;
-    justify-items: center;
-    grid-template-columns:auto auto auto;
-    margin-top: 1em;
-    margin-bottom: 6em;
 }
 
 .container {
@@ -154,137 +138,21 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-.descricao__titulo {
-    font-weight: 700;
-    font-size: 48px;
-    color: var(--branco-principal);
-    margin-bottom: 0.1em;
-}
 
-.descricao__texto {
-    color: var(--branco-principal);
-    font-size: 28px;
-    font-weight: 700;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    height: 36px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
 
-.descricao__texto:hover {
-    background-color: var(--botao-efeito-colorido);
-    color: var(--cor-de-fundo);
-    transition: all 0.3s ease;
-    transform: scale(1.1); /* Aumenta o botão */
-}
 
-.descricao__texto2 {
-    color: var(--cinza-secundario);
-    font-size: 20px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    height: 4em;
-    text-decoration: none;
- 
-}
 
-.secundario__botao {
-    display: inline-block;
-    margin-top: 1em;
-}
 
-.container__descricao {
-    padding: 2em;
-}
-.dispositivos {
-    display: block;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 10em;
-}
-.dispositivos__titulo {
-    font-size: 48px;
-    color: var(--branco-principal);
-    margin-top: 3em;
-}
 
-.lista__item {
-    font-size: 32px;
-    color: var(--branco-principal);
-    margin: 0em 1em 0em 1em;
-}
 
-.dispositivos__lista {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    list-style-type: none;
-    color: var(--branco-principal);
-    margin: 2em 10em 2em 10em;
-}
 
-.rodape__logo {
-    margin-bottom: 2em;
-}
 
-.rodape__lista {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 1em;
-    margin-bottom: 2em;
-    gap: 3em;   
-}
 
-.lista__link a {
-    text-decoration: none;
-    color: var(--branco-principal);
-    margin-left: 1em;
-}
 
-.lista__link a:hover {
-    color: var(--botao-azul);
-}
 
-.lista__link a:active {
-    color: #fb081c;
-}
 
-.rodape__texto {
-    color: var(--cinza-secundario);
-    font-size: 14px;
-}
 
-.rodape {
-    text-align: center;
-    margin: 5em 3em;
-}
 
-.secundario__imagem {
-    width: 60%;
-}
-.imagemF {
-    align-items: center;
-}
-
-.imagem {
-    object-fit: cover; /* Mantém a proporção da imagem */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
-    border-radius: 10px; /* Borda arredondada opcional */
-    width: 340px;
-    height: 340px;
-}
-
-.imagem:hover {
-    transform: scale(1.2); /* Aumenta a imagem em 10% */
-}
-
-.tamanho__grid {
-    width: 400px;
-    height: 550px;
-}
 
 
 .container__input {
