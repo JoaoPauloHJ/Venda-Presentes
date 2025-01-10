@@ -1,0 +1,32 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --branco--gelo: #ffffffdf;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-efeito-colorido: #0eddf4;
+}
+
+.container__botaoLogin {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: flex;
+    text-decoration: none;
+    margin-top: 1em;
+    transition: all 0.3s ease;
+    width: 10em; /* Largura do botão */
+    height: 1em; /* Altura do botão */
+    font-size: 20px;
+    font-weight: 400;
+}   
+
+.container__botaoLogin:hover {
+    background-color: var(--botao-efeito-colorido);
+    color: var(--cor-de-fundo);
+    transform: scale(1.2); /* Aumenta o botão */
+    box-shadow: 0 4px 15px rgb(5, 67, 238); /* Adiciona sombra */
+}
+
